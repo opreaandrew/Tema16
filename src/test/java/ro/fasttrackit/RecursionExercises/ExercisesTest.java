@@ -11,7 +11,7 @@ class ExercisesTest {
 
     @Test
     void sumOfFirst_n_integersTest() {
-        assertThat(sumOfFirst_n_EvenIntegers(5)).isEqualTo(6);
+        assertThat(sumOfFirst_n_integers(5)).isEqualTo(15);
 
     }
 
