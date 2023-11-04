@@ -22,4 +22,12 @@ public class Clothes implements ShopItem {
     public Category category() {
         return category;
     }
+
+    public String toString() {
+        return "Clothes{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
+    }
 }

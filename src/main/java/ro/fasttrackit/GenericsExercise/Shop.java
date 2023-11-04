@@ -33,7 +33,7 @@ public class Shop<T extends ShopItem> {
 
     public Optional<T> findByName(String name) {
         for (T item : items) {
-            if (item.name().equals(name)) {
+            if (item.name().equalsIgnoreCase(name)) {
                 return Optional.of(item);
             }
         }

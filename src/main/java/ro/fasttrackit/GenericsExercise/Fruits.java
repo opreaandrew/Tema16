@@ -22,4 +22,13 @@ public class Fruits implements ShopItem {
     public Category category() {
         return category;
     }
+
+    @Override
+    public String toString() {
+        return "Fruits{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
+    }
 }

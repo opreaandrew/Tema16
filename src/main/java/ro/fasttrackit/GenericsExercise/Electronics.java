@@ -22,4 +22,12 @@ public class Electronics implements ShopItem {
     public Category category() {
         return category;
     }
+
+    public String toString() {
+        return "Electronics{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
+    }
 }
